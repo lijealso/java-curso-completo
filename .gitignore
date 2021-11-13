@@ -29,6 +29,10 @@ aulas/.settings/
 aulas/.vscode/
 aulas/bin/
 .classpath
+ficheiros/
+/ficheiros
+
+
 .project
 <<<<<<< HEAD
 
