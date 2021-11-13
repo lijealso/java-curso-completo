@@ -31,6 +31,9 @@ aulas/bin/
 .classpath
 ficheiros/
 /ficheiros
+.vscode/
+/.vscode
+
 
 
 .project
