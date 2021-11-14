@@ -13,8 +13,6 @@ import A121.entities.OrderItem;
 import A121.entities.Product;
 import A121.entities_enums.OrderStatus;
 
-
-
 public class Program {
 
 	public static void main(String[] args) throws ParseException {

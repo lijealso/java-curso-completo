@@ -7,8 +7,6 @@ import java.util.List;
 
 import A121.entities_enums.OrderStatus;
 
-
-
 public class Order {
 
 	private static final SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
