@@ -2,6 +2,8 @@ package A115.entities;
 
 import java.util.Date;
 import A115.entities_enums.OrderStatus;
+import A121.entities.Client;
+import A121.entities.OrderItem;
 
 public class Order
 {
@@ -16,10 +18,10 @@ public class Order
 
     // contrutor completo
 
-    public Order(Integer id, Date moment, OrderStatus status) {
-        this.id = id;
-        this.moment = moment;
-        this.status = status;
+    public Order(Date date, OrderStatus status2, Client client) {
+        this.id = date;
+        this.moment = status2;
+        this.status = client;
     }
 
     // setters e getters
@@ -53,6 +55,9 @@ public class Order
     @Override
     public String toString() {
         return "Order [id=" + id + ", moment=" + moment + ", status=" + status + "]";
+    }
+
+    public void addItem(OrderItem orderItem) {
     };
 
     
